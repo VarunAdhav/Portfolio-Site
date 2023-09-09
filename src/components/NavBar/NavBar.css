@@ -1,0 +1,43 @@
+nav,
+.menu {
+    display: flex;
+    font-size: larger;
+}
+
+.navbar {
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    cursor: default;
+}
+
+.menu {
+    gap: 1rem;
+}
+
+.menu li {
+    list-style: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu li:hover {
+    text-decoration: underline grey;
+    text-underline-offset: 0.5rem;
+    font-weight: bolder;
+    margin: 2%;
+    text-shadow: rgb(53, 53, 53) 0.5rem 0.5rem 25px;
+    transform: scale(1.1);
+}
+
+.menu li:active {
+    scale: 1.5;
+
+}

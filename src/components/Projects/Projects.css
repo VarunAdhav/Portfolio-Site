@@ -1,0 +1,23 @@
+#projects {
+    position: relative;
+}
+
+.projectsDetails {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.projectsInro {
+    display: flex;
+    text-align: center;
+}
+
+.Projects {
+    margin: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+    max-height: fit-content;
+}

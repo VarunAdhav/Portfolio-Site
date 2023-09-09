@@ -1,0 +1,94 @@
+#home {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    height: 96vh;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    position: relative;
+    /* margin-top:  */
+}
+
+.left {
+    justify-content: center;
+    gap: 10%;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.arrowDown img {
+    position: absolute;
+    cursor: pointer;
+    top: 40rem;
+    right: 0.5rem;
+}
+
+.left p,
+img,
+button {
+    margin: 5px;
+    text-align: center;
+}
+
+.about p {
+    text-align: center;
+    justify-content: center;
+}
+
+.name p {
+    font-size: 2rem;
+}
+
+.description p {
+    font-size: 1.5rem;
+    color: rgb(53, 53, 53);
+}
+
+.pic img {
+    height: 450px;
+    width: 450px;
+    border-radius: 100%;
+    object-fit: cover;
+    /* object-position: bottom 0.1px; */
+    box-shadow: 5px 5px 50px darkgrey;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 0.2rem;
+    padding-left: 6.7rem;
+}
+
+.socialIcons img {
+    height: 2rem;
+    width: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.socialIcons img:hover {
+    cursor: pointer;
+    opacity: 0.58;
+}
+
+button {
+    font-weight: bolder;
+    background-color: white;
+    padding: 5px;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 30px;
+    border: solid 0.1rem black;
+    transition: all 300mx eas;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0.2rem 0.2rem 25px rgb(53, 53, 53);
+    transition: all 0.5s ease-in-out;
+}
+
+button:active {
+    scale: 0.5;
+}

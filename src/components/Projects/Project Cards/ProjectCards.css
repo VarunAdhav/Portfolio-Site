@@ -1,0 +1,44 @@
+.projectCards {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    height: max-content;
+}
+
+.container {
+    border: solid rgb(85 85 85) 0.2rem;
+    border-radius: 25px;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.container img {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.projectDetails {
+    text-align: center;
+
+}
+
+.projectDetails h3 {
+    /* display: flex;
+    flex-wrap: wrap; */
+    font-size: 1.5rem;
+    width: 400px;
+    padding: 0 0 1rem 0;
+    /* margin: 0 0 0 8.5rem; */
+}
+
+.projectDetails p {
+    font-size: small;
+    flex-wrap: wrap;
+    width: 400px;
+    padding: 0 0 1rem 0;
+}
+
+.projectDetails a {
+    /* font-family: 'Fira Code', monospace; */
+    text-decoration: none;
+}

@@ -1,0 +1,72 @@
+#skills {
+    position: relative;
+    /* display: flex; */
+    /* gap: 5rem; */
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+
+.about-containers {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.section-container {
+    display: flex;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.section__text__p1 {
+    text-align: center;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 5rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+
+.experience-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+article {
+    display: flex;
+    width: 10rem;
+    gap: 0.5rem;
+}
+
+article .icon {
+    height: 2rem;
+    width: 2rem;
+    cursor: default;
+}
